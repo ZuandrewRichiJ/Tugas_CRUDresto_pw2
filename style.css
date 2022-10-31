@@ -1,0 +1,74 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+}
+.navtop {
+    background-color: #3f69a8;
+    height: 60px;
+    width: 100%;
+    border: 0;
+    position: sticky;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #ecf0f6;
+    font-weight: normal;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #c5d2e5;
+    font-weight: bold;
+}
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+    color: #ecf0f6;
+}
+
+.update form {
+    padding: 15px 0;
+    display: flex;
+    flex-flow: wrap;
+}
+.update form label {
+    display: inline-flex;
+    width: 400px;
+    padding: 10px 0;
+    margin-right: 25px;
+}
+.update form input {
+    padding: 10px;
+    width: 400px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+}
+.update form input[type="submit"] {
+    display: block;
+    background-color: #38b673;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 200px;
+  margin-top: 15px;
+}
+.update form input[type="submit"]:hover {
+    background-color: #32a367;
+}

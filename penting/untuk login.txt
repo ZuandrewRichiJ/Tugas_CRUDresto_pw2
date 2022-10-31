@@ -1,0 +1,7 @@
+--login Pegawai--
+username : PE001, PE002, PE003, PE004, PE005 (dan seterusnya sesuai jumlah karyawan)
+password : 1
+
+----login admin---
+username : admin1, admin2, admin3
+password : 1
